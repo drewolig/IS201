@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2e8b57;
+}
+
+.navbar {
+    background-color: #008080;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+}
+
+#golf-love {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#video {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#tableau-graph {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#joke {
+    font-size: 20px;
+    color: #d2691e;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Center the gallery title and images */
+.image-gallery {
+    text-align: center; /* Centers the text inside .image-gallery */
+    margin: 0 auto; /* Centers the whole container */
+}
+
+.gallery-container {
+    display: flex; /* Uses Flexbox to display images in a row */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 15px; /* Adds spacing between the images */
+    flex-wrap: wrap; /* Allows images to wrap to a new line if there’s not enough space */
+}
+
+.gallery-container img {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a nicer look */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Optional hover effect for images */
+.gallery-container img:hover {
+    transform: scale(1.1); /* Slightly zoom in when hovered */
+}
+
+/* Center the Tableau graph */
+#tableau-graph {
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center the iframe horizontally */
+    align-items: center; /* Center the iframe vertically if needed */
+    margin: 20px 0; /* Add some space around the iframe */
+}
+
+#tableau-graph iframe {
+    max-width: 100%; /* Ensure the iframe doesn't overflow the container */
+    height: 600px; /* Set a fixed height for the graph */
+    width: 80%; /* Adjust the width to 80% of the parent container */
+}
+
+
+
+
+.footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
